@@ -1,0 +1,144 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  background-color: #66CC99;
+}
+
+#header-content {
+  color: white;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#header-logo {
+  display: inline;
+  width: 20%;
+  margin-right: 4%;
+  padding: 10px;
+}
+
+#header-search {
+  display: inline;
+}
+
+#search {
+  display: inline;
+  height: 36px;
+  width: 240px;
+  color: white;
+  background-color: #66CC99;
+  border: none;
+  border-bottom: 2px solid white;
+  padding-left: 12px;
+}
+
+#search:focus {
+  outline: none;
+}
+
+#search::placeholder {
+  color: white;
+}
+
+#search-submit {
+  display: inline;
+  height: 41px;
+  color: white;
+  background-color: #66CC99;
+  padding: 10px;
+  border: 2px solid white;
+  outline: none;
+}
+
+#search-submit:hover {
+  color: #66CC99;
+  background-color: white;
+  border: 2px solid white;
+  outline: none;
+}
+
+#search-submit:focus {
+  color: #66CC99;
+  background-color: white;
+  border: 2px solid white;
+  outline: none;
+}
+
+#header-links {
+  float: right;
+  display: inline;
+}
+
+#header-links li {
+  display: inline;
+  line-height: 36px;
+  padding: 0px 10px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#about {
+  padding: 8px 12px 8px;
+}
+
+#about:hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid white;
+}
+
+#faq {
+  padding: 8px 12px 8px;
+}
+
+#faq:hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid white;
+}
+
+#login {
+  padding: 8px 12px 8px;
+}
+
+#login:hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid white;
+}
+
+#signup {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+#signup:hover {
+  color: #66CC99;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+main {
+  width: 80%;
+  min-height: 80vh;
+  background-color:#66CC99;
+  margin: 2vh 10%;
+}
+
+footer {
+  width: 100%;
+  height: 12vh;
+  background-color: #66CC99;
+}
